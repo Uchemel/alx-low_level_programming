@@ -1,9 +1,10 @@
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- * main - generate random numbers to detect -ve or +ve
+ * main - generate random numbers to detect negative or positive
  *
- * Return: always (0)
+ * Return: always (SUCCESS)
  *
  */
 int main(void)
