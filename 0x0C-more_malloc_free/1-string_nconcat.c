@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
+
 /**
  * *string_nconcat - concatenates n bytes of a string to another string
  * @s1: string to append to
@@ -25,7 +26,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (!s)
 		return (NULL);
-
 	while (i < len1)
 	{
 		s[i] = s1[i];
